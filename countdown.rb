@@ -5,7 +5,7 @@ def countdown(seconds)
     while count < seconds
     puts "#{seconds} SECONDS(S)!"
     seconds -= 1
-    sleep(1.0)
+    sleep(5.0)
    
     
     break if seconds <= 0
