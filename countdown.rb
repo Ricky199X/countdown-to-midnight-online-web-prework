@@ -3,7 +3,7 @@
 def countdown(seconds)
   count = 0
     while count < seconds
-    puts "#{seconds} SECONDS(S)!"
+    puts "#{seconds} SECOND(S)!"
     seconds -= 1
     sleep(5.0)
    
