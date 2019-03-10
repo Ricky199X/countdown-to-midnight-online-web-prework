@@ -1,6 +1,6 @@
 #write your code here
 
-def countdown_with_sleep(seconds)
+def countdown(seconds)
   count = 0
     while count < seconds
     puts "#{seconds} SECOND(S)!"
