@@ -2,12 +2,13 @@
 
 def countdown(seconds)
   count = 0
-    while seconds > count
+    while count < seconds
     puts "#{seconds} SECONDS(S)!"
+    seconds -= 1
     sleep(1.0)
-    count -= 1
+   
     
-    if count == 0
-      "HAPPY NEW YEAR!"
+    if seconds <= 0
+      puts "HAPPY NEW YEAR!"
   end
 end
