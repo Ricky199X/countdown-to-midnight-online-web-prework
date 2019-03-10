@@ -4,7 +4,7 @@ def countdown(seconds)
   count = seconds
     while count >= 0
     sleep(1.0)
-    puts "#{seconds} SECONDS(S)!"
     count -= 1
+    puts "#{seconds} SECONDS(S)!"
   end
 end
