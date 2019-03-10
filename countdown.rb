@@ -10,6 +10,5 @@ def countdown(seconds)
     
     if seconds <= 0
       "HAPPY NEW YEAR!"
-      break
   end
 end
