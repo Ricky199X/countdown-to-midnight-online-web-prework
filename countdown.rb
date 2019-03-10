@@ -8,7 +8,7 @@ def countdown(seconds)
     sleep(1.0)
    
     
-    break if seconds < -10
+    break if seconds <= 0
       "HAPPY NEW YEAR!"
   end
 end
